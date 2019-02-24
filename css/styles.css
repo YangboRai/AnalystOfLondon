@@ -121,7 +121,7 @@ nav a {
 .mobileNav{
 	display: none;
     font-size: 1.5rem;
-	color: #f5f5f5;
+    color: #f5f5f5;
 }
 
 .mobileNav i{
@@ -176,13 +176,13 @@ nav a {
   text-align: center;
 	width: 80%;
 	padding: 0 10%;
-	height: 320px;
+	height: 420px;
 	background: #f2f5f5;
 
 }
 
 #services h1{
-	padding: 40px 0px 20px 0px;
+	padding: 50px 0px 40px 0px;
 	color:#474343;
   font-size: 2rem;
 }
@@ -397,6 +397,11 @@ footer p{
 		height: 750px;
 	}
 
+  #services h1{
+  	padding: 40px 0px 20px 0px;
+  	color:#474343;
+    font-size: 2rem;
+  }
 
 	.one-3{
     padding: 20px 0px;
