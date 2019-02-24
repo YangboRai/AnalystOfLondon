@@ -121,6 +121,7 @@ nav a {
 .mobileNav{
 	display: none;
     font-size: 1.5rem;
+	color: #f5f5f5;
 }
 
 .mobileNav i{
