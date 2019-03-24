@@ -55,24 +55,26 @@ a{
 .btn{
 	background: #f5f5f5;
 	text-decoration: none;
-	font-family: didot,serif;
-	font-size: 15px;
-	padding: 8px;
-	font-weight: bold;
+	font-family: proxima nova, sans-serif;
+	font-size: 17px;
+	padding: 12px;
+	font-weight: 600;
 	transition: all .5s;
-	color: #0C2943;
+	color: #00386d;
+	opacity: .8;
 
 }
 
 .btn:hover{
 	background: #0C2943;
 	color: #f5f5f5;
+	opacity: 1;
 }
 
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.2);
 }
 
 .bgImage{
@@ -94,6 +96,11 @@ a{
 
 }
 
+
+.logo_a{
+	color: #72bbff;
+	font-weight: 500;
+}
 
 nav{
 	width: 90%;
@@ -135,7 +142,7 @@ nav a:hover{
 
 
 .heroContent{
-	margin:30vh 0 0 17%;
+	margin:30vh 0 0 15%;
 	z-index: ;
 }
 
@@ -146,11 +153,20 @@ nav a:hover{
 }
 
 .heroContent h1{
+	font-family: proxima nova, sans-serif;
+	color: white;
+  text-shadow: 0px 0px 10px black;
+  margin-bottom: 25px;
+	font-weight: 500;
+}
+
+.heroContent h2{
 	color: white;
   text-shadow: 0px 0px 10px black;
   margin-bottom: 20px;
-	font-size: 3.5rem;
+	font-weight: 600;
 }
+
 
 .scroll{
 	display: flex;
@@ -159,27 +175,26 @@ nav a:hover{
 	right: 1.7%;
 	transform: rotate(270deg);
 	bottom: 63px;
+	background: #181818;
+		padding:10px;
 }
 
 .scroll p{
 	color: white;
-	font-size: 16px;
+	font-size: 14px;
+	padding: 0 5px;
 		transition: all .5s;
 }
 
-.scroll p:hover{
-	font-size:18px;
-
-}
-
 .scroll .line{
-	height: 2px;
-	width: 60px;
 	margin-right: 10px;
-	background-color: white;
+	transform: rotate(90deg);
 }
 
-
+.line{
+	color: white;
+ font-size: 20px;
+}
 
 
 /* ------------ SERVICES ------------*/
@@ -262,7 +277,9 @@ opacity:.9;}
 }
 
 
-
+#wWeDo{
+	width: 100%;
+}
 
 .wwd{
   width: 80%;
@@ -301,39 +318,36 @@ opacity:.9;}
 	margin:5em auto 0 auto;
 }
 
-.shop{
-	width: 90%;
-	margin: 10em auto;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-
-}
-
-.shop h2{
-	text-align: center;
-	padding: 20px 0px;
-}
-
-.frame{
- text-align: left;
-}
-
-
-.openingTime{
+#abt-team{
 	width: 100%;
-	line-height: 25px;
-	}
-
-.openingTime h3{
-
-	margin: 10px 0px;
-		margin-left: 20%;
+	height: 90%;
+	left: -100%;
+	position:absolute;
+	background:#181818;
+	transition: all 1.5s;
+	overflow: auto;
+	color: #f5f5f5;
 }
-.openingTime li{
-	list-style-type: none;
-		margin-left: 20%;
+
+.btn-team{
+	background: #f5f5f5;
+	text-decoration: none;
+	font-family: proxima nova, sans-serif;
+	font-size: 17px;
+	padding: 12px;
+	font-weight: 600;
+	transition: all .5s;
+	color: #00386d;
+	opacity: .8;
 
 }
+
+.btn-team:hover{
+	background: #0C2943;
+	color: #f5f5f5;
+	opacity: 1;
+}
+
 
 footer{
 	text-align: center;
