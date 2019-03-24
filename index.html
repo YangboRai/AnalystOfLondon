@@ -10,14 +10,20 @@
 
 	  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js">
   </script>
+
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="js.js" charset="utf-8"></script>
 
 </head>
 <body>
 
 	<div class="hero" id="home">
 		<nav>
-			<a href="#" class="logo">Analysts Of London</a>
+			<a href="#" class="logo"><span class="logo_a">Analysts</span> Of London</a>
 			<div class="desktopNav">
         <a href="#home">Home</a>
 				<a href="#services">Services</a>
@@ -33,12 +39,12 @@
 		</nav>
 
 		<div class="heroContent">
-			<h1>Analyst Of London</h1>
-			<a href="#" class="btn">ABOUT US</a>
+			<h1>Analysts Of London</h1>
+			<a href="#" class="btn">Clear Actionable Solution</a>
 		</div>
 
 		<a href="#services"><div class="scroll">
-			<div class="line"></div>
+			<div class="line" id="toggle"><i class="fas fa-long-arrow-alt-down"></i></div>
 			<p>SCROLL</p>
 		</div>
 		<div class="bgImage">
@@ -49,7 +55,7 @@
 
   <h1>SERVICES</h1>
 
-  <div class="one-3">
+  <div class="one-3 fade">
     <i id="services-logo" class="fas fa-chart-line"></i>
     <h3>Service 1</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -88,12 +94,25 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 
-      	<a href="#" class="btn">OUR TEAM</a>
+      	<a class="btn-team">OUR TEAM</a>
 
 		</div>
+    <div id="abt-team">
+
+    </div>
 	</div>
 
-	<div class="wwd" id="wWeDo">
+
+<!--TEAM PAGE -->
+
+
+
+<!--TEAM PAGE -->
+
+<div id="wWeDo">
+
+
+	<div class="wwd">
 	<h2>WHAT WE DO</h2>
   <br>
   <p>Analysts of London uses data to provide insight into how an organisation, and its workers, are performing.
@@ -109,7 +128,7 @@
 
 	</div>
 
-
+</div>
 
 	<footer>
 		<div id="social">
@@ -122,34 +141,5 @@
           <p>&copy 2018 Yangbo Rai - ALL RIGHTS RESERVED</p>
         </div>
 	</footer>
-
-  <script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-
-
-</script>
 </body>
 </html>
